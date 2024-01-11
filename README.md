@@ -51,6 +51,52 @@ Press N to Next the image \
 Press R to previous image \
 Press Q to quit
 
+#### Pameters file 
+the file will be params.json 
+```
+{
+    "HSV": [
+        0,
+        0,
+        55,
+        180,
+        255,
+        255
+    ],
+    "gaussianblur": [
+        1,
+        1
+    ],
+    "dilate": [
+        5,
+        0
+    ],
+    "erode": [
+        15,
+        0
+    ],
+    "canny": [
+        10,
+        10
+    ],
+    "circle": [
+        1,
+        5,
+        0,
+        20
+    ]
+}
+```
+
+### SDK usage 
+
+```
+from lib_save import Imageprocessing, read_save
+
+params = {'HSV': [..]} ## looks like above example
+reading = read_save()
+img_params,_,_ = reading.read_params(params, frame_ori)
+```
 
 ## Tutorial for more
 then go to setting up the parameters 
