@@ -1,0 +1,10 @@
+{
+  "basic": {
+    "source": "dataset/20230318",
+    "resize": "False",
+    "camera_config": "config/camera_config/a2A2590-60ucPRO_40065215.pfs",
+    "process_name": ["erode","sharp","blur","thresh","line","HSV","dilate","canny","circle","sobel","barrel_distort","crop","contour_area"],
+    "process": ["crop","barrel_distort","blur","HSV","erode","dilate","contour_area"],
+    "config_path": "./config/"
+  }
+}

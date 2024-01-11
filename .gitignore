@@ -1,0 +1,10 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+data/*
+data1/*
+test1/*
+past_data/*
+output/*
+project_*
+.idea*
+.idea/*
