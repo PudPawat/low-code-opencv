@@ -4,6 +4,8 @@
 This code is metioned in the conference paper  ECTI-CON 2024
 So, the concept of this low-code based OpenCV in Fig below 
 
+![alt text](https://github.com/PudPawat/low-code-opencv/blob/main/images/concept.png?raw=true)
+
 ### Installation 
 using python 3.8 
 ```
@@ -39,6 +41,27 @@ python setting_params.py
 after the code is runing, there are window to set parameters following the process in the configuration file  main.json
 
 example 
+![alt text](https://github.com/PudPawat/low-code-opencv/blob/main/images/windows.png?raw=true)
+
+
+#### command in UI \
+Press A to update to parameters\ 
+Press S to save\
+Press N to Next the image \
+Press R to previous image \
+Press Q to quit
+
+
+## Tutorial for more
+then go to setting up the parameters 
+I suggest to visit this/
+
+![Watch the video](https://drive.google.com/file/d/14nNEcNqJ4s8NHQkEZMCcJOjjBIxKbBbl/view?usp=sharing)
+https://drive.google.com/file/d/14nNEcNqJ4s8NHQkEZMCcJOjjBIxKbBbl/view?usp=sharing
+
+see more details https://docs.google.com/document/d/1szQmotkCh7ohC_64nXKTcr0Ttbz6_SV4jJaD74pe12c/edit?usp=sharing
+
+
 
 
 
